@@ -1,4 +1,10 @@
-#root { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+#root {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 
 * {
   box-sizing: border-box;
@@ -20,7 +26,7 @@ a:visited {
 }
 
 a:hover {
-  background-color: pink;
+  background-color: orange;
   color: black;
   border-color: palevioletred;
 }
@@ -32,14 +38,14 @@ a:active {
 
 .container {
   display: grid;
-	grid-template-rows: 50px auto;
+  grid-template-rows: 50px auto;
   grid-template-columns: 200px auto;
   grid-column-gap: 20px;
-	height: 100vh;
+  height: 100vh;
 }
 
 .emptystate {
-  display:flex;
+  display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -47,7 +53,7 @@ a:active {
 }
 
 .notfound {
-  display:flex;
+  display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -61,11 +67,11 @@ a:active {
 
 .header {
   display: flex;
-  color: #FFF;
-  background-color: rgb(0, 255, 204);
+  color: #fff;
+  background-color: rgb(0, 255, 100);
   border-bottom: 1px solid rgb(150, 0, 154);
   grid-column-start: 1;
-  grid-column-end:   3;
+  grid-column-end: 3;
   align-items: center;
   justify-content: center;
 }
@@ -80,12 +86,12 @@ a:active {
   grid-column-end: 2;
   grid-row-start: 2;
   overflow: scroll;
-  border-right: 1px solid #CCC;
+  border-right: 1px solid #ccc;
 }
 
 .note {
   padding: 1em;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #ccc;
   overflow-y: hidden;
   display: block;
 }
